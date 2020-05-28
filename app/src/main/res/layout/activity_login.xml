@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/login">
+
+    <EditText
+        android:id="@+id/id_login"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:ems="10"
+        android:hint="请输入账号"
+        android:inputType="text"
+        android:textColor="@color/colorAccent"
+        android:textColorHint="@color/colorAccent" />
+
+    <EditText
+        android:id="@+id/pwd_login"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/id_login"
+        android:layout_below="@+id/id_login"
+        android:layout_marginTop="50dp"
+        android:hint="请输入密码"
+        android:inputType="textPassword"
+        android:textColor="@color/colorAccent"
+        android:textColorHint="@color/colorAccent" />
+
+    <Button
+        android:id="@+id/bt_login"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/pwd_login"
+        android:layout_below="@+id/pwd_login"
+        android:layout_marginTop="50dp"
+        android:background="#1f658deb"
+        android:text="登  录"
+        android:textColor="@color/colorAccent"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/go_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/bt_login"
+        android:layout_below="@id/bt_login"
+        android:layout_marginTop="50dp"
+        android:background="#1f658deb"
+        android:text="没有账号？"
+        android:textColor="@color/colorAccent" />
+
+</RelativeLayout>
