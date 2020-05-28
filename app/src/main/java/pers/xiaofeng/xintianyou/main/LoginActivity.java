@@ -23,7 +23,8 @@ import pers.xiaofeng.xintianyou.R;
  * @author：廿柒
  * @description：登录（使用SharePreferences保存当前登录用户信息）
  * @date：2020-3-17
- * 测试更新github
+ * 测试更新AS源码
+ * 测试下载github源码
  */
 public class LoginActivity extends Activity {
 
